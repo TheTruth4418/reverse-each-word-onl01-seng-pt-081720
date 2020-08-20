@@ -3,7 +3,7 @@ def reverse_each_word(string)
   splitter = []
   output = []
 
-  input.each do|word|
+  input.collect do|word|
     output.push(word.reverse)
   end
 
